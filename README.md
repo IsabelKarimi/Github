@@ -31,10 +31,9 @@ ng serve -o
  * Angular CLI
  * Typescript
 ## Live link to view the project
- <a href="https://rhonajoyke.github.io/GitHub_Search-App/">View GitHub Search App</a>
+ 
 
-## Screenshot of webapp
-<img src="src/assets/images/gitsearchapp .png">
+
 
 ## Known Bugs
  So far so good there are no bugs related to this project 😎
