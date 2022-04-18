@@ -31,21 +31,20 @@ ng serve -o
  * Angular CLI
  * Typescript
 ## Live link to view the project
- <a href="https://rhonajoyke.github.io/GitHub_Search-App/">View GitHub Search App</a>
+ 
 
-## Screenshot of webapp
-<img src="src/assets/images/gitsearchapp .png">
+
 
 ## Known Bugs
  So far so good there are no bugs related to this project 😎
 ## Support and contact details 🙂
 To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
 * Email: isabelkarimi7@gmail.com
-* Phone: +254706555078
+* Phone: +254713421711
 ## License
 
 
-Copyright (c) 2021 Moringa school
+Copyright (c) 2021 Isabel Karimi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files , to deal
