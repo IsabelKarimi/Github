@@ -44,7 +44,7 @@ To make a contribution to the code used or any suggestions you can click on the 
 ## License
 
 
-Copyright (c) 2021 Moringa school
+Copyright (c) 2021 Isabel Karimi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files , to deal
