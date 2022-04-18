@@ -1,5 +1,5 @@
 # GitHub Search App
-#### Created By RhonaJoy
+#### Created By Isabel Karimi
 ## Description
 Week 2 Independent Project | GitHub Search App at Moringa School Core (Angular Module). A web application where  users can search for other Github users using the Github API and their repositories.
 ## Setup Requirements
