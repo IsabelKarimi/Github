@@ -40,7 +40,7 @@ ng serve -o
 ## Support and contact details 🙂
 To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
 * Email: isabelkarimi7@gmail.com
-* Phone: +254706555078
+* Phone: +254713421711
 ## License
 
 
