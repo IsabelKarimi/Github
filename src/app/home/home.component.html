@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mt-5" style="width: 22rem" appColors>
+                <img [src]="userDetails?.avatar_url" class="card-img-top" alt="My profile picture">
+                <div class="card-body text-center">
+                    <h4 class="card-text"><b>{{ userDetails?.name }} </b></h4>
+                    <p><b>{{ userDetails?.login }}</b></p>
+                    <p><b>{{ userDetails?.bio }}</b></p>
+                    <p><b>{{ userDetails?.location }}</b></p>
+
+                    <div class="d-flex justify-content-evenly">
+                        <div>
+                            <p> <i class="fa fa-user"></i> {{ userDetails?.followers }} followers</p>
+                        </div>
+                        <div>
+                            <p> <i class="fa fa-user"></i> {{ userDetails?.following }} followers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
+            <div class="row my-repository" appColors>
+                <div class="col-md-12 text-center m-2">
+                    <h2>My repositories</h2>
+                </div>
+                <div class="col-md-3" *ngFor="let repository of userRepositories; let i = index">
+                    <div class="card card-repo">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title heading"> {{ repository.name }} </h5>
+                            <p class="card-text mt-1">{{ repository.description}}</p>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text"><strong>Created on: <span class="badge rounded-pill bg-warning text-dark">{{repository.created_at | date }}</span></strong> </p>
+                            <a href="{{ repository.html_url }}" target="_blank" class="card-link color-primary">View repository <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <app-footer></app-footer>
+        </div>
+
+    </div>
+
+</div>
