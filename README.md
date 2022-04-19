@@ -32,7 +32,7 @@ ng serve -o
  * Typescript
 ## Live link to view the project
  
-
+isabelkarimi.github.io/github/
 
 
 ## Known Bugs
