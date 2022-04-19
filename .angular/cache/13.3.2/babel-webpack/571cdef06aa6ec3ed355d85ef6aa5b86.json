@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Repos {\n  constructor(name, html_url, description, language) {\n    this.name = name;\n    this.html_url = html_url;\n    this.description = description;\n    this.language = language;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

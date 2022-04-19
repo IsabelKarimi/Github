@@ -7,7 +7,7 @@ import { UsrepodataService } from '../services/usrepodata/usrepodata.service';
 @Component({
   selector: 'app-repository',
   templateUrl: './repository.component.html',
-  styleUrls: ['./repository.component.scss']
+  styleUrls: ['./repository.component.css']
 })
 export class RepositoryComponent implements OnInit {
   @ViewChild('repoForm') repoFormSearch: NgForm

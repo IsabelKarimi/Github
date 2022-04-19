@@ -1,14 +1,16 @@
-#cardrepo{
+#cardrepo {
     margin-top: 10px;
-    background-color: tomato;
+    background-color: blue;
     margin-bottom: 10px;
 }
-.formgroup{
+
+.formgroup {
     padding-top: 40px;
-    width:60%;
+    width: 60%;
     padding-left: 22rem;
 }
-#submit{
+
+#submit {
     margin-left: 32%;
-    width:15%
+    width: 15%
 }
